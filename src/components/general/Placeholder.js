@@ -24,7 +24,7 @@ const Placeholder = ({ text }) => (
 );
 
 Placeholder.propTypes = { text: PropTypes.string };
-Placeholder.defaultProps = { text: 'Coming soon...' };
+Placeholder.defaultProps = { text: 'KOZ4' };
 Placeholder.componentName = 'Placeholder';
 
 /* Export Component ==================================================================== */

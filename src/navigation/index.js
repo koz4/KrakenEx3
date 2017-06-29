@@ -44,7 +44,7 @@ export default Actions.create(
       <Scene
         clone
         key={'comingSoon'}
-        title={'Coming Soon'}
+        title={'Alarm dzwoni'}
         component={Placeholder}
         analyticsDesc={'Placeholder: Coming Soon'}
       />

@@ -59,7 +59,7 @@ const scenes = (
     <Scene
       key={'timeline'}
       {...navbarPropsTabs}
-      title={'Coming Soon'}
+      title={'Alarm dzwoni'}
       component={Placeholder}
       icon={props => TabIcon({ ...props, icon: 'timeline' })}
       analyticsDesc={'Placeholder: Coming Soon'}

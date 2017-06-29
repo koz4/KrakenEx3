@@ -43,6 +43,8 @@ const store = compose(
   applyMiddleware(...middleware),
 )(createStore)(rootReducer);
 
+console.ignoredYellowBox = ['Setting a timer'];
+
 /* Component ==================================================================== */
 // Wrap App in Redux provider (makes Redux available to all sub-components)
 export default function AppContainer() {
